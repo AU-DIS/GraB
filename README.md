@@ -24,9 +24,6 @@ labels = sp.csr_matrix((loader['labels.data'], loader['labels.indices'], loader[
 ```
 # Citing
 If you find MoPed benchmask useful in your research, we ask that you cite the following paper:
-
-> Knudsen, M.S., Brodal, L.A., Peczalski, P.K., Moradan, A., Mottin, D., Assent, I. (2022).
-> Resource: Arduous Graphs for Overlapping Community Detection.
 ```
 @inproceedings{MoPedBenckmark,
      author = {Knudsen, Malik S. and Brodal, Laurits A. and Peczalski, Peter K. and Moradan, Atefeh and Mottin, Davide and Assent, Ira},
