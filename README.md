@@ -29,8 +29,9 @@ If you find MoPed benchmask useful in your research, we ask that you cite the fo
 > Graph Clustering with Graph Neural Networks.
 ```
 @inproceedings{MoPedBenckmark,
-     author={Stær Knudsen, Malik and Almskou Brodal, Laurits and Peczalski, Peter Kristoffer and Moradan, Atefeh and Mottin, Davide and Assent, Ira}
-     title={Resource: Arduous Graphs for Overlapping Community Detection},
+     author = {Stær Knudsen, Malik and Almskou Brodal, Laurits and Peczalski, Peter Kristoffer and Moradan, Atefeh and Mottin, Davide and Assent, Ira},
+     title = {Resource: Arduous Graphs for Overlapping Community Detection},
+     abstract = {We introduce MoPed, a new class of datasets for community detection that exposes unique characteristics. As opposed to available datasets, our graphs are at the same time heterogeneous, i.e., include different types of nodes, comprise overlapping communities, i.e., nodes belong to multiple communities, and include attributes in the nodes. We show that state-of-the-art methods struggle in finding communities in such graphs, suggesting a gap in the field.},
      year = {2022},
     }
 ```
