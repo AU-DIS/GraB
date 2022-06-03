@@ -22,7 +22,7 @@ attributes = sp.csr_matrix((loader['attr_matrix.data'], loader['attr_matrix.indi
 labels = sp.csr_matrix((loader['labels.data'], loader['labels.indices'], loader['labels.indptr']), shape=loader['labels.shape'])
 
 ```
-#Citing
+# Citing
 If you find MoPed benchmask useful in your research, we ask that you cite the following paper:
 
 > Knudsen, M.S., Brodal, L.A., Peczalski, P.K., Moradan, A., Mottin, D., Assent, I. (2022).
