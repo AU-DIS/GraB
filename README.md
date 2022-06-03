@@ -37,7 +37,5 @@ If you find MoPed benchmask useful in your research, we ask that you cite the fo
 ```
 
 # Copyright
-Since it uses data from DBpedia and IMDb, it inherits their copyright. (I think please change if I am wrong) <br>
-The datasets are available for access to customers for personal and non-commercial use. (copied from imdb)
-
-
+Data curticy of DBpedia and IMDb<br>
+The datasets are available for personal and non-commercial use. 
