@@ -22,10 +22,21 @@ attributes = sp.csr_matrix((loader['attr_matrix.data'], loader['attr_matrix.indi
 labels = sp.csr_matrix((loader['labels.data'], loader['labels.indices'], loader['labels.indptr']), shape=loader['labels.shape'])
 
 ```
+#Citing
+If you find MoPed benchmask useful in your research, we ask that you cite the following paper:
+
+> Tsitsulin, A., Palowitch, J., Perozzi, B., Mueller, E., (2020).
+> Graph Clustering with Graph Neural Networks.
+```
+@inproceedings{MoPedBenckmark,
+     author={Stær Knudsen, Malik and Almskou Brodal, Laurits and Peczalski, Peter Kristoffer and Moradan, Atefeh and Mottin, Davide and Assent, Ira}
+     title={Resource: Arduous Graphs for Overlapping Community Detection},
+     year = {2022},
+    }
+```
 
 # Copyright
 Since it uses data from DBpedia and IMDb, it inherits their copyright. (I think please change if I am wrong) <br>
 The datasets are available for access to customers for personal and non-commercial use. (copied from imdb)
 
-# Reference guide
-Reference text.
+
