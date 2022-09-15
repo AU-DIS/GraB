@@ -21,18 +21,4 @@ attributes = sp.csr_matrix((loader['attr_matrix.data'], loader['attr_matrix.indi
 #label matrix
 labels = sp.csr_matrix((loader['labels.data'], loader['labels.indices'], loader['labels.indptr']), shape=loader['labels.shape'])
 
-```
-# Citing
-If you find MoPed benchmask useful in your research, we ask that you cite the following paper:
-```
-@inproceedings{MoPedBenckmark,
-     author = {Knudsen, Malik S. and Brodal, Laurits A. and Peczalski, Peter K. and Moradan, Atefeh and Mottin, Davide and Assent, Ira},
-     title = {Resource: Arduous Graphs for Overlapping Community Detection},
-     abstract = {We introduce MoPed, a new class of datasets for community detection that exposes unique characteristics. As opposed to available datasets, our graphs are at the same time heterogeneous, i.e., include different types of nodes, comprise overlapping communities, i.e., nodes belong to multiple communities, and include attributes in the nodes. We show that state-of-the-art methods struggle in finding communities in such graphs, suggesting a gap in the field.},
-     year = {2022},
-    }
-```
 
-# Copyright
-Data curticy of DBpedia and IMDb<br>
-The datasets are available for personal and non-commercial use. 
