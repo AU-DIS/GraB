@@ -24,12 +24,12 @@ labels = sp.csr_matrix((loader['labels.data'], loader['labels.indices'], loader[
 
 ```
 # Citing
-If you find MoPed benchmask useful in your research, we ask that you cite the following paper:
+If you find GraB benchmask useful in your research, we ask that you cite the following paper:
 ```
-@inproceedings{MoPedBenckmark,
+@inproceedings{GraBBenchmark,
      author = {Knudsen, Malik S. and Brodal, Laurits A. and Peczalski, Peter K. and Moradan, Atefeh and Mottin, Davide and Assent, Ira},
-     title = {Resource: Arduous Graphs for Overlapping Community Detection},
-     abstract = {We introduce MoPed, a new class of datasets for community detection that exposes unique characteristics. As opposed to available datasets, our graphs are at the same time heterogeneous, i.e., include different types of nodes, comprise overlapping communities, i.e., nodes belong to multiple communities, and include attributes in the nodes. We show that state-of-the-art methods struggle in finding communities in such graphs, suggesting a gap in the field.},
+     title = {GraB: Graph Benchmark for Heterogeneous Graph Clustering},
+     abstract = {We introduce GraB, a benchmark for graph clustering that exposes unique characteristics. As opposed to available datasets, our graphs are at the same time heterogeneous, i.e., include different types of nodes and node attributes, and comprise overlapping clusters, i.e., each node belongs to multiple clusters. We empirically show the arduous characteristics of the datasets; the GraB datasets are available at https://anonymous.4open.science/r/GraB-benchmarks/.},
      year = {2022},
     }
 ```
